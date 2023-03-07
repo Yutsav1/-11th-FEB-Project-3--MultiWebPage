@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #EAEAEA;
+}
+
+nav {
+    margin: 0 5vw;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+nav>ul>li>a:hover {
+    /* border-bottom: 2px solid #03C988; */
+    color: #03C988;
+}
+
+nav>ul>li>.aboutus {
+    color: #03C988;
+}
+
+main>.details {
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+main>.details>h1 {
+    color: #03C988;
+    font-weight: 800;
+}
+
+main>.details>p {
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+main>.box {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+main>.box>.bx>h1 {
+    color: #03C988;
+    font-weight: 800;
+    text-align: center;
+}
+
+main>.box>.bx>p {
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+main>.box>.bx {
+    /* border: 2px solid #000000; */
+    padding: 2vh 4vw;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px grey;
+}
